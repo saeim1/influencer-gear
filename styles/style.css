@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+/* common style */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+/* Utitlites classess */
+.py {
+  padding: 50px 5%;
+}
+
+.main-bannar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products-info {
+  flex: 1;
+}
+.products-info h1 {
+  font-size: 52px;
+}
+.products-info p {
+  margin-bottom: 30px;
+}
+.banner-img {
+  flex: 1;
+}
+.banner-img img {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+.link-btn {
+  background: #e02c6d;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 41px;
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 24px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+/* collection item */
+.our-product h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.all-product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.all-product .product {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
